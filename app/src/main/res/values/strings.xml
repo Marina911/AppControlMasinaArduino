@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Telecomanda Masina Arduino</string>
+    <string name="activity_main_title">Home</string>
+    <string name="acticity_sageti_title">Control Prin Sageti</string>
+    <string name="acticity_conectare_bluetooht_title">Conectare Bluetooth</string>
+    <string name="acticity_control_vocal_title">Control Prin Voce</string>
+    <string name="acticity_control_anti_collision_off">Control Fara Protectie Anti-Collision</string>
+    <string name="buttonCautare">Cauta</string>
+    <string name="buttonConectare">Conectare</string>
+    <string name="buttonVocal">Vocal</string>
+    <string name="textViewComandaVocala">Apasa microfonul pentru a transmite o comanda...</string>
+</resources>

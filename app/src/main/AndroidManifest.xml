@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aplicatiecontrolmasinaarduino">
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".AntiCollisionOff"
+            android:label="@string/acticity_control_anti_collision_off"
+            android:parentActivityName=".ConectareBluetooth"></activity>
+        <activity
+            android:name=".ControlVocal"
+            android:label="@string/acticity_control_vocal_title"
+            android:parentActivityName=".ConectareBluetooth" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/activity_main_title" />
+        <activity
+            android:name=".ControlSageti"
+            android:label="@string/acticity_sageti_title"
+            android:parentActivityName=".ConectareBluetooth" />
+        <activity
+            android:name=".ConectareBluetooth"
+            android:label="@string/acticity_conectare_bluetooht_title">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
